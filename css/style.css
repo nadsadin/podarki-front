@@ -320,13 +320,13 @@ body {
       text-align: center;
       letter-spacing: -0.5px;
       color: #212121; }
-  body .swiper#main-slider-slide {
+  body #main-slider .swiper-slide {
     min-height: 500px;
     background-size: cover; }
-    body .swiper#main-slider-slide__content {
+    body #main-slider .swiper-slide__content {
       text-align: center;
       padding-bottom: 50px; }
-    body .swiper#main-slider-slide__title {
+    body #main-slider .swiper-slide__title {
       padding-top: 140px;
       padding-bottom: 66px;
       font-family: Montserrat;
@@ -337,17 +337,17 @@ body {
       letter-spacing: -0.5px;
       color: #FFFFFF; }
       @media only screen and (max-width: 767.98px) {
-        body .swiper#main-slider-slide__title {
+        body #main-slider .swiper-slide__title {
           font-size: 50px;
           line-height: 55px; } }
       @media only screen and (max-width: 575.98px) {
-        body .swiper#main-slider-slide__title {
+        body #main-slider .swiper-slide__title {
           font-size: 35px;
           line-height: 38px; } }
-  body .swiper#main-slider-pagination-bullet {
+  body #main-slider .swiper-pagination-bullet {
     background-color: #fff;
     opacity: 1; }
-    body .swiper#main-slider-pagination-bullet-active {
+    body #main-slider .swiper-pagination-bullet-active {
       background-color: #E84F3C; }
   body .section-card {
     border: 1px solid #EAEAEA;
